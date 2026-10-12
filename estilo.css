@@ -1,0 +1,16 @@
+:root{--fundo:#F6FAFE;--fundo2:#E2F0FC;--texto:#1F3A4D;--cinza:#5B6873;--roxo:#8E5BD6;--verde:#2EC4B6}
+*{box-sizing:border-box}
+body{margin:0;font-family:"Nunito",system-ui,sans-serif;color:var(--texto);background:linear-gradient(var(--fundo2),var(--fundo));line-height:1.6}
+main{max-width:760px;margin:0 auto;padding:24px 16px 48px}
+header{display:flex;align-items:center;gap:14px;margin-bottom:16px}
+header img{width:56px;height:56px;border-radius:14px}
+header a{color:var(--texto);text-decoration:none;font-weight:900;font-size:1.4rem}
+h1{font-weight:900;line-height:1.2}
+h2{font-weight:800;margin-top:2em}
+a{color:var(--roxo)}
+.banner{width:100%;border-radius:18px;box-shadow:0 6px 20px rgba(31,58,77,.12)}
+.telas{display:flex;gap:12px;overflow-x:auto;padding:8px 0}
+.telas img{height:360px;border-radius:14px}
+.cartao{background:#fff;border-radius:18px;padding:16px 20px;box-shadow:0 2px 10px rgba(31,58,77,.08);margin:16px 0}
+.botao{display:inline-block;background:var(--verde);color:#fff;text-decoration:none;font-weight:800;padding:12px 20px;border-radius:14px}
+footer{margin-top:40px;color:var(--cinza);font-size:.9rem}
